@@ -56,5 +56,9 @@ public Mono<Void> deleteEmployee( @PathVariable Integer id){
 public Flux<Employee> getlistedEmployee(){
 	return employeeService.getlistedemp();
 }
-
+// commit
+@GetMapping("/listedemp")
+public Flux<Employee> getlisteEmployee(){
+	return employeeService.getlistedemp();
+}
 }
